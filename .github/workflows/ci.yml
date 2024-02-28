@@ -25,6 +25,10 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material
-      - run: pip install mkdocstrings
+      - run: mkdocs==1.5.3
+      - run: mkdocs-autorefs==0.5.0
+      - run: mkdocs-material==9.5.11
+      - run: mkdocs-material-extensions==1.3.1
+      - run: mkdocstrings==0.24.0
+      - run: mkdocstrings-python==1.8.0
       - run: mkdocs gh-deploy --force
