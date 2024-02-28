@@ -26,6 +26,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: mkdocs==1.5.3
-      - run: mkdocs-material==9.5.11
       - run: mkdocstrings==0.24.0
       - run: mkdocs gh-deploy --force
