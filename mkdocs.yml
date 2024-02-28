@@ -5,8 +5,8 @@ site_description: >-
   Emulator for different probes.
 
 # Repository
-# repo_name:
-# repo_url:
+repo_name: CosmoCruncher
+repo_url: https://github.com/Harry45/CosmoCruncher/
 
 # Run at a specific address on local machine
 dev_addr: 127.0.0.1:8006
