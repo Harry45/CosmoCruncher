@@ -3,7 +3,7 @@ title: Application
 icon: material/application-settings-outline
 ---
 
-# Embedding a Space
+# CosmoCruncher Application
 
 <!-- <div class="grid cards" markdown>
 
@@ -31,5 +31,5 @@ Can access the application [here](https://huggingface.co/spaces/Harry45/hello_wo
 	src="https://harry45-hello-world.hf.space"
 	frameborder="0"
 	width="1600"
-	height="300"
+	height="600"
 ></iframe>
