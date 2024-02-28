@@ -1,12 +1,12 @@
 site_name: CosmoCruncher
-# site_url:
+site_url: https://harry45.github.io/CosmoCruncher/
 site_author: Dr. Arrykrishna Mootoovaloo
 site_description: >-
   Emulator for different probes.
 
 # Repository
 repo_name: CosmoCruncher
-repo_url: https://github.com/Harry45/CosmoCruncher/
+repo_url: https://github.com/Harry45/CosmoCruncher
 
 # Run at a specific address on local machine
 dev_addr: 127.0.0.1:8006
