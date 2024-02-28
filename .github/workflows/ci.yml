@@ -25,7 +25,13 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install --upgrade pip
-      - run: pip install -r requirements.txt
-      - run: pytest tests/*
-      - run: mkdocs gh-deploy --force
+      - name: Install libraries
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Test with pytest
+        run: |
+          pytest tests/*
+      - name: Deploy webpage
+        run: |
+          mkdocs gh-deploy --force
