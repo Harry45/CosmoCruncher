@@ -17,11 +17,11 @@ nav:
   - About: about.md
   - Application: application.md
   - Emulator:
-    - Matter: pk.md
-    - CMB: cmb.md
-    - Weak Lensing: wl.md
-    - Ecosystem: ecosystem.md
-    - Custom: custom.md
+      - Matter: pk.md
+      - CMB: cmb.md
+      - Weak Lensing: wl.md
+      - Ecosystem: ecosystem.md
+      - Custom: custom.md
   - Contact: contact.md
 
 # Configuration
