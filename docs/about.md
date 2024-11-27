@@ -25,6 +25,8 @@ We strive to make those plugins as modular and generic as possible, so that they
 
 ::: src.operations
 
+-->
+
 Does Latex work?
 
 $$
@@ -37,4 +39,4 @@ Does python code work?
 import numpy as np
 
 x = np.linspace(0, 1, 100)
-``` -->
+```
